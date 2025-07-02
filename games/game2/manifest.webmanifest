@@ -1,0 +1,15 @@
+{
+  "name": "lemon's Adventure at dino land 3.24.1 combat update part 1",
+  "short_name": "lemon's Adventure at dino land 3.24.1 combat update part 1",
+  "id": "com.example.topdownrpg",
+  "description": "part 1 of combat update sorry for updateing the game",
+  "orientation": "landscape",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "black",
+  "categories": ["games", "entertainment"],
+  "icons": [{
+        "src": "ce16b5f67ff1e6af87cbcdd9725d93d8f281fdac4291a8b20e902953d1835666-9D508FCB-DC37-4008-981C-13F8BBFE3137.jpeg",
+        "sizes": "512x512"
+      }]
+}

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <link rel="icon" type="image/x-icon" href="favicon.ico" />  
+ <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FNaF Games - RuinStudios</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: #111;
+      font-family: 'Press Start 2P', cursive;
+      color: #ffa500;
+      padding: 20px;
+      text-align: center;
+      margin: 0;
+    }
+
+    h1 {
+      color: #f0e68c;
+      margin-bottom: 10px;
+    }
+
+    .game-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 40px;
+      margin-top: 30px;
+    }
+
+    .game-card {
+      position: relative;
+      background-color: black;
+      color: orange;
+      border: 3px solid orange;
+      padding: 10px 20px;
+      text-decoration: none;
+      box-shadow: 3px 3px #222;
+      width: 280px;
+    }
+
+    .game-card .preview {
+      display: none;
+      position: absolute;
+      top: 110%;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 250px;
+      height: 140px;
+      background-size: cover;
+      background-position: center;
+      border: 2px solid #ffa500;
+      background-color: #000;
+      z-index: 10;
+    }
+
+    .game-card:hover .preview {
+      display: block;
+    }
+
+    .back-btn {
+      background-color: #ffa500;
+      color: black;
+      font-size: 12px;
+      padding: 10px 20px;
+      border: 3px solid #000;
+      text-decoration: none;
+      box-shadow: 3px 3px #000;
+      display: inline-block;
+      margin-bottom: 20px;
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 10px;
+    }
+
+    footer a {
+      color: #ffa500;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <a href="index.html" class="back-btn">⬅ Back to Game Hub</a>
+  <h1>🧸 FNaF Fan Games</h1>
+  <p>Five Nights at Freddy’s style fan games</p>
+
+  <div class="game-list">
+    <a class="game-card" href="FNAF/FNAF/FNAF/1/index.html"
+/hd_fnaf-main/
+/hd_fnaf-main/index.html" data-thumbnail="thumbnails/FNAF/fnaf1.png">
+      FNaF 1
+      <div class="preview"></div>
+    </a>
+    <a class="game-card" href="FNAF/FNAF/FNAF/2/index.html" data-thumbnail="thumbnails/FNAF/fnaf2.png">
+     FNaF 2
+      <div class="preview"></div>
+    </a>
+    <a class="game-card" href="FNAF/FNAF/FNAF/3/index.html" data-thumbnail="thumbnails/FNAF/fnaf3.png">
+      FNaF: 3
+      <div class="preview"></div>
+    </a>
+    <a class="game-card" href="FNAF/FNAF/FNAF/4/index.html" data-thumbnail="thumbnails/FNAF/fnaf4.png">
+      FNaF: 4
+      <div class="preview"></div>
+    </a>
+   <a class="game-card" href="FNAF/FNAF/FNAF/sl/index.html" data-thumbnail="thumbnails/FNAF/fnaf5.png">
+      FNaF: sister location dosent work well
+      <div class="preview"></div>
+</a>
+<a class="game-card" href="FNAF/FNAF/FNAF/ps/index.html" data-thumbnail="thumbnails/FNAF/fnaf6.png">
+      FNaF:  pizzaria sim
+      <div class="preview"></div>
+</a>
+<a class="game-card" href="FNAF/FNAF/FNAF/w/index.html" data-thumbnail="thumbnails/FNAF/fnaf7.png">
+      FNaF:  World
+      <div class="preview"></div>
+</a>
+<a class="game-card" href="FNAF/FNAF/FNAF/ucn/index.html" data-thumbnail="thumbnails/FNAF/fnaf8.png">
+      FNaF:  UCN
+      <div class="preview"></div>
+</a>
+  </div>
+
+  <footer>
+    <a>RuinStudios & RuinWeb 2025</a>
+  </footer>
+
+  <script>
+    document.querySelectorAll('.game-card').forEach(card => {
+      const preview = card.querySelector('.preview');
+      const img = card.getAttribute('data-thumbnail');
+      preview.style.backgroundImage = `url(${img})`;
+    });
+  </script>
+
+</body>
+</html>

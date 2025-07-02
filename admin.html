@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" type="image/x-icon" href="favicon.ico" /> 
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Admin Dashboard | RuinStudios</title>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Press Start 2P', cursive;
+      background-color: #111;
+      color: #f0e68c;
+      text-align: center;
+    }
+
+    h1 {
+      margin-top: 30px;
+      color: #ffa500;
+    }
+
+    .admin-panel {
+      background-color: #000;
+      border: 3px solid #ffa500;
+      box-shadow: 5px 5px #222;
+      padding: 30px;
+      margin: 40px auto;
+      width: 90%;
+      max-width: 600px;
+    }
+
+    .admin-panel a {
+      display: block;
+      margin: 15px 0;
+      color: #ffa500;
+      text-decoration: none;
+      font-size: 12px;
+    }
+
+    .menu-icon {
+      position: fixed;
+      top: 15px;
+      right: 25px;
+      font-size: 24px;
+      color: #ffa500;
+      cursor: pointer;
+      z-index: 1002;
+    }
+
+    .sidebar {
+      position: fixed;
+      top: 0;
+      right: -300px;
+      width: 250px;
+      height: 100%;
+      background-color: #222;
+      color: #ffa500;
+      box-shadow: -3px 0 5px rgba(0, 0, 0, 0.5);
+      padding: 20px;
+      transition: right 0.3s ease-in-out;
+      z-index: 1001;
+      text-align: left;
+    }
+
+    .sidebar a {
+      display: block;
+      color: #ffa500;
+      text-decoration: none;
+      margin: 10px 0;
+      font-size: 12px;
+    }
+
+    .sidebar-footer {
+      position: absolute;
+      bottom: 10px;
+      font-size: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <script>
+    const password = prompt("Admin access only. Enter password:");
+    if (password !== "yep") {
+      alert("Incorrect password. Returning to home.");
+      window.location.href = "index.html";
+    }
+  </script>
+
+  <div class="menu-icon" onclick="toggleSidebar()">☰</div>
+
+  <div id="sidebar" class="sidebar">
+    <a href="index.html">🏠 Home</a>
+    <a href="updatelog.html">📢 Update Log</a> 
+    <a href="submission_form.html">📤 Submit Game</a>
+    <a href="TD.html">🧪 Tech Demos</a>
+    <a href="gamelist.html">👾 Game List</a>
+    <a href="admin.html">🔐 Admin</a>
+    <div class="sidebar-footer">
+      RuinStudios 2025<br>RuinWeb 2025
+    </div>
+  </div>
+
+  <h1>Admin Dashboard</h1>
+
+  <div class="admin-panel">
+    <a href="view_submissions.html">📂 View Submissions</a>
+    <a href="manage_users.html">👤 Manage Users</a>
+    <a href="manage_games.html">🎮 Manage Games</a>
+    <a href="site_settings.html">⚙️ Site Settings</a>
+    <a href="view_stats.html">📊 View Stats</a>
+  </div>
+
+  <script>
+    function toggleSidebar() {
+      const sidebar = document.getElementById("sidebar");
+      sidebar.style.right = sidebar.style.right === "0px" ? "-260px" : "0px";
+    }
+
+    document.querySelectorAll('.sidebar a').forEach(link => {
+      link.addEventListener('click', () => {
+        document.getElementById("sidebar").style.right = "-260px";
+      });
+    });
+  </script>
+</body>
+</html>

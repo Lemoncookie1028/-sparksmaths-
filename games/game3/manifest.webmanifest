@@ -1,0 +1,84 @@
+{
+  "name": "dino blast (desktop)",
+  "short_name": "dino blast (desktop)",
+  "id": "com.example.TheConvictionOfGunDude",
+  "description": "Top down shoot'em up game with a leaderboard, randomized rooms, and upgrades. fixed the gun texter",
+  "orientation": "landscape",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "black",
+  "categories": ["games", "entertainment"],
+  "icons": [{
+        "src": "3c49802cf21f7e6faa8cf7dcf7dc9f0dea5942aaaea4be05fa0e53bccdacb017-IMG_5804.jpeg",
+        "sizes": "20x20"
+      },{
+        "src": "3c49802cf21f7e6faa8cf7dcf7dc9f0dea5942aaaea4be05fa0e53bccdacb017-IMG_5804.jpeg",
+        "sizes": "29x29"
+      },{
+        "src": "3c49802cf21f7e6faa8cf7dcf7dc9f0dea5942aaaea4be05fa0e53bccdacb017-IMG_5804.jpeg",
+        "sizes": "36x36"
+      },{
+        "src": "3c49802cf21f7e6faa8cf7dcf7dc9f0dea5942aaaea4be05fa0e53bccdacb017-IMG_5804.jpeg",
+        "sizes": "40x40"
+      },{
+        "src": "3c49802cf21f7e6faa8cf7dcf7dc9f0dea5942aaaea4be05fa0e53bccdacb017-IMG_5804.jpeg",
+        "sizes": "48x48"
+      },{
+        "src": "3c49802cf21f7e6faa8cf7dcf7dc9f0dea5942aaaea4be05fa0e53bccdacb017-IMG_5804.jpeg",
+        "sizes": "50x50"
+      },{
+        "src": "3c49802cf21f7e6faa8cf7dcf7dc9f0dea5942aaaea4be05fa0e53bccdacb017-IMG_5804.jpeg",
+        "sizes": "57x57"
+      },{
+        "src": "3c49802cf21f7e6faa8cf7dcf7dc9f0dea5942aaaea4be05fa0e53bccdacb017-IMG_5804.jpeg",
+        "sizes": "58x58"
+      },{
+        "src": "3c49802cf21f7e6faa8cf7dcf7dc9f0dea5942aaaea4be05fa0e53bccdacb017-IMG_5804.jpeg",
+        "sizes": "60x60"
+      },{
+        "src": "3c49802cf21f7e6faa8cf7dcf7dc9f0dea5942aaaea4be05fa0e53bccdacb017-IMG_5804.jpeg",
+        "sizes": "72x72"
+      },{
+        "src": "3c49802cf21f7e6faa8cf7dcf7dc9f0dea5942aaaea4be05fa0e53bccdacb017-IMG_5804.jpeg",
+        "sizes": "76x76"
+      },{
+        "src": "3c49802cf21f7e6faa8cf7dcf7dc9f0dea5942aaaea4be05fa0e53bccdacb017-IMG_5804.jpeg",
+        "sizes": "80x80"
+      },{
+        "src": "3c49802cf21f7e6faa8cf7dcf7dc9f0dea5942aaaea4be05fa0e53bccdacb017-IMG_5804.jpeg",
+        "sizes": "87x87"
+      },{
+        "src": "3c49802cf21f7e6faa8cf7dcf7dc9f0dea5942aaaea4be05fa0e53bccdacb017-IMG_5804.jpeg",
+        "sizes": "96x96"
+      },{
+        "src": "3c49802cf21f7e6faa8cf7dcf7dc9f0dea5942aaaea4be05fa0e53bccdacb017-IMG_5804.jpeg",
+        "sizes": "100x100"
+      },{
+        "src": "3c49802cf21f7e6faa8cf7dcf7dc9f0dea5942aaaea4be05fa0e53bccdacb017-IMG_5804.jpeg",
+        "sizes": "114x114"
+      },{
+        "src": "3c49802cf21f7e6faa8cf7dcf7dc9f0dea5942aaaea4be05fa0e53bccdacb017-IMG_5804.jpeg",
+        "sizes": "120x120"
+      },{
+        "src": "3c49802cf21f7e6faa8cf7dcf7dc9f0dea5942aaaea4be05fa0e53bccdacb017-IMG_5804.jpeg",
+        "sizes": "144x144"
+      },{
+        "src": "3c49802cf21f7e6faa8cf7dcf7dc9f0dea5942aaaea4be05fa0e53bccdacb017-IMG_5804.jpeg",
+        "sizes": "152x152"
+      },{
+        "src": "3c49802cf21f7e6faa8cf7dcf7dc9f0dea5942aaaea4be05fa0e53bccdacb017-IMG_5804.jpeg",
+        "sizes": "167x167"
+      },{
+        "src": "3c49802cf21f7e6faa8cf7dcf7dc9f0dea5942aaaea4be05fa0e53bccdacb017-IMG_5804.jpeg",
+        "sizes": "180x180"
+      },{
+        "src": "3c49802cf21f7e6faa8cf7dcf7dc9f0dea5942aaaea4be05fa0e53bccdacb017-IMG_5804.jpeg",
+        "sizes": "192x192"
+      },{
+        "src": "3c49802cf21f7e6faa8cf7dcf7dc9f0dea5942aaaea4be05fa0e53bccdacb017-IMG_5804.jpeg",
+        "sizes": "512x512"
+      },{
+        "src": "3c49802cf21f7e6faa8cf7dcf7dc9f0dea5942aaaea4be05fa0e53bccdacb017-IMG_5804.jpeg",
+        "sizes": "1024x1024"
+      }]
+}

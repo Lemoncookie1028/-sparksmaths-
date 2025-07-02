@@ -1,0 +1,84 @@
+{
+  "name": "Dino on the run",
+  "short_name": "Dino on the run",
+  "id": "com.example.platformer",
+  "description": "its a dino",
+  "orientation": "landscape",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "black",
+  "categories": ["games", "entertainment"],
+  "icons": [{
+        "src": "4a07518ab8ee3c261bd633a5f1f107de64e4e51c9da035d3ad9dee23f8b1071a-ios-icon-20.png.png",
+        "sizes": "20x20"
+      },{
+        "src": "edfd2ec776dad1f30acf120a69b879229996fff88208e1c3217bc0759cf8b6bd-ios-icon-29.png.png",
+        "sizes": "29x29"
+      },{
+        "src": "4b8395ea045f801d7cdf66ab2252ee2f566a660fd6ee75dce4a43e882c1b077b-android-icon-36.png.png",
+        "sizes": "36x36"
+      },{
+        "src": "56609438d8f8d95bd14bdf97c152b40e6de2294238f3da608aea6630ea3e1317-ios-icon-40.png.png",
+        "sizes": "40x40"
+      },{
+        "src": "5ad371856d81ddf18ca74f80f33ede050104e705a0a756f36ea201ce7b46ae96-android-icon-48.png.png",
+        "sizes": "48x48"
+      },{
+        "src": "fe2bf85c720e045b34aa459e51bbe2fc58026f32b3873abb787fe46e096568d8-ios-icon-50.png.png",
+        "sizes": "50x50"
+      },{
+        "src": "7e9e5153cce9ce0cbc1127d51901382f7b14a85d93cd0342d99e117a8f1c31f7-ios-icon-57.png.png",
+        "sizes": "57x57"
+      },{
+        "src": "2f14e5c7849b2085621e4d51ab546f686a6f784b426c0d4671ff4fba90d3f9b8-ios-icon-58.png.png",
+        "sizes": "58x58"
+      },{
+        "src": "df0ba87c3183e958879debeaf453dc915f765a51fb466fd059ca282ada12e7a3-ios-icon-60.png.png",
+        "sizes": "60x60"
+      },{
+        "src": "121703eb5e91eaf3f29e27f37edb53808b4e5efd6048a4d5e07f1a4479223994-android-icon-72.png.png",
+        "sizes": "72x72"
+      },{
+        "src": "0a715d7eb1c149dba9ada119f2dc212bb23e58ea70cced9bb43c6d45e8b96e75-ios-icon-76.png.png",
+        "sizes": "76x76"
+      },{
+        "src": "bac102b7017f8fbe2cfd08fd8472fee180fb6ae0ec6b5bf2f025bfca2d041298-ios-icon-80.png.png",
+        "sizes": "80x80"
+      },{
+        "src": "c96d44b7c28ac770ac1818ca0cf3e6502e3624268084d6232bc638f801d88ab3-ios-icon-87.png.png",
+        "sizes": "87x87"
+      },{
+        "src": "ccf783b1818c0427793f6ed79f7fa88224928924ba9b20f64b044658c6788507-android-icon-96.png.png",
+        "sizes": "96x96"
+      },{
+        "src": "822d6bd09abbf61f7bdd9cb2fdff1c265399348dbb2d1b73532eaf2a51c48b71-ios-icon-100.png.png",
+        "sizes": "100x100"
+      },{
+        "src": "92fd8b134c72bc4b63d230165561ddee57b1c68401e4b2829632503b9d9c83eb-ios-icon-114.png.png",
+        "sizes": "114x114"
+      },{
+        "src": "695715b7e7f54c537dfb149a602585e8f08fbd9bf271009d00f9a713d5997808-ios-icon-120.png.png",
+        "sizes": "120x120"
+      },{
+        "src": "3554b8cba20b9e24672714c036cc6bc0fd48dbe09f0a388e537dc48efea94d0c-android-icon-144.png.png",
+        "sizes": "144x144"
+      },{
+        "src": "3600b18c75df80a131843713f4a1c5147cb0d930c712e273c4b1a7e4e6c258dc-ios-icon-152.png.png",
+        "sizes": "152x152"
+      },{
+        "src": "58845fa39c01e9fd6ff3a1fa6630c5d704357c0b7faa4280fe53e5aa4ee2246b-ios-icon-167.png.png",
+        "sizes": "167x167"
+      },{
+        "src": "6ae5ca1d277bfb0eccfb8409cc0a5d46a67017b07f29ff62f410ad78253b26cd-ios-icon-180.png.png",
+        "sizes": "180x180"
+      },{
+        "src": "28280a35cad18c739173b8e45b4b7f0d03102762e3a7f74f66c048319e592826-android-icon-192.png.png",
+        "sizes": "192x192"
+      },{
+        "src": "2f686fff801ab44fcaa97efcf3eee40ad028a1e4a06db55bd878e51fed9e6ebd-desktop-icon-512.png.png",
+        "sizes": "512x512"
+      },{
+        "src": "124f044a86ffe4bfb814324a7d79db22aef754b716befaaf346a8c88e6bb7493-ios-icon-1024.png.png",
+        "sizes": "1024x1024"
+      }]
+}

@@ -1,0 +1,25 @@
+[package]
+name = "common"
+version = "0.1.1"
+edition = "2021"
+authors = [ "Softbear, Inc." ]
+license = "AGPL-3.0-or-later"
+
+[features]
+server = [ ]
+default = [ "server" ]
+
+[dependencies]
+flagset = "0.4"
+fxhash = "0.2.1"
+kodiak_common = { git = "https://github.com/softbearstudios/kodiak", tag="0.1.1" }
+macros = { path = "../macros" }
+num-integer = "0.1.45"
+num_enum = "0.5"
+pathfinding = "3.0"
+serde = "1"
+serde-big-array = "0.4.1"
+strum = { version = "0.24.1", features = [ "derive" ] }
+
+[dev-dependencies]
+bincode = "1.3.3"

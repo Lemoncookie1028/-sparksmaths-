@@ -1,0 +1,10 @@
+[package]
+name = "server"
+version = "0.1.1"
+edition = "2021"
+
+[dependencies]
+atomic_refcell = "0.1"
+common = { path = "../common", features = [ "server" ] }
+kodiak_server = { git = "https://github.com/softbearstudios/kodiak", tag="0.1.1" }
+ref-cast = "1.0"

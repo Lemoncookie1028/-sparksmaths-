@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel="icon" type="image/x-icon" href="favicon.ico" /> 
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>RuinStudios - 🧪Tech Demos</title>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: #111;
+      font-family: 'Press Start 2P', cursive;
+      color: #ffa500;
+      padding: 20px;
+      text-align: center;
+      margin: 0;
+    }
+
+    h1 {
+      color: #f0e68c;
+      margin-bottom: 10px;
+    }
+
+    .submit-demo-btn {
+      background-color: #ffa500;
+      color: black;
+      font-size: 12px;
+      padding: 10px 20px;
+      border: 3px solid #000;
+      text-decoration: none;
+      box-shadow: 3px 3px #000;
+      display: inline-block;
+      margin-bottom: 20px;
+    }
+
+    .demo-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 40px;
+      margin-top: 30px;
+    }
+
+    .demo-card {
+      position: relative;
+      background-color: black;
+      color: orange;
+      border: 3px solid orange;
+      padding: 10px 20px;
+      text-decoration: none;
+      box-shadow: 3px 3px #222;
+      cursor: pointer;
+      width: 280px;
+      margin-bottom: 50px;
+    }
+
+    .demo-card .preview {
+      display: none;
+      position: absolute;
+      top: 110%;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 250px;
+      height: 140px;
+      background-size: cover;
+      background-position: center;
+      border: 2px solid #ffa500;
+      background-color: #000;
+      z-index: 10;
+    }
+
+    .demo-card:hover .preview {
+      display: block;
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 10px;
+    }
+
+    footer a {
+      color: #ffa500;
+      text-decoration: none;
+    }
+
+    .menu-icon {
+      position: fixed;
+      top: 15px;
+      right: 20px;
+      font-size: 24px;
+      color: #ffa500;
+      cursor: pointer;
+      z-index: 1002;
+    }
+
+    .sidebar {
+      position: fixed;
+      top: 0;
+      right: -260px;
+      width: 250px;
+      height: 100%;
+      background-color: #222;
+      color: #ffa500;
+      box-shadow: -3px 0 5px rgba(0, 0, 0, 0.5);
+      padding: 20px;
+      transition: right 0.3s ease-in-out;
+      z-index: 1001;
+      text-align: left;
+    }
+
+    .sidebar a {
+      display: block;
+      color: #ffa500;
+      text-decoration: none;
+      margin: 10px 0;
+    }
+
+    .sidebar-footer {
+      position: absolute;
+      bottom: 10px;
+      font-size: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Sidebar toggle -->
+  <div class="menu-icon" onclick="toggleSidebar()">☰</div>
+
+  <!-- Sidebar -->
+  <div id="sidebar" class="sidebar">
+     <a href="index.html">🏠 Home</a>
+     <a href="updatelog.html">📢update log</a>
+     <a href="submission_form.html">📤 Submit Game</a>
+    <a href="about.html">ℹ️ About</a>
+    <a href="Viewcounter.html">📝 View counter</a>
+     <a href="techdemo.html">🧪 Tech Demos</a>
+    <a href="gamelist.html">👾 game list</a>
+    <div class="sidebar-footer">
+      RuinStudios 2025<br>RuinWeb 2025
+    </div>
+  </div>
+
+  <div class="container">
+    <a href="submit_techdemo.html" class="submit-demo-btn">Submit Tech Demo</a>
+    <h1>🧪 RuinStudios Tech Demos 🧪</h1>
+    <p>Explore experimental prototypes and engines!</p>
+
+    <div class="demo-list">
+      <a class="demo-card" href="demos/demo1/index.html" data-thumbnail="thumbnails/demo/demo1.png">
+        deltarune tech demo
+        <div class="preview"></div>
+      </a>
+
+      <a class="demo-card" href="ComingSoon.html" data-thumbnail="thumbnails/ComingSoon.png">
+        Coming Soon
+        <div class="preview"></div>
+      </a>
+
+      <a class="demo-card" href="ComingSoon.html" data-thumbnail="thumbnails/ComingSoon.png">
+        Coming Soon
+        <div class="preview"></div>
+      </a>
+    </div>
+
+    <footer>
+      <a>RuinStudios & RuinWeb 2025</a>
+    </footer>
+  </div>
+
+  <script>
+    document.querySelectorAll('.demo-card').forEach(card => {
+      const preview = card.querySelector('.preview');
+      const img = card.getAttribute('data-thumbnail');
+      preview.style.backgroundImage = `url(${img})`;
+    });
+
+    function toggleSidebar() {
+      const sidebar = document.getElementById("sidebar");
+      sidebar.style.right = (sidebar.style.right === "0px") ? "-260px" : "0px";
+    }
+
+    document.querySelectorAll('.sidebar a').forEach(link => {
+      link.addEventListener('click', () => {
+        document.getElementById("sidebar").style.right = "-260px";
+      });
+    });
+  </script>
+
+</body>
+</html>

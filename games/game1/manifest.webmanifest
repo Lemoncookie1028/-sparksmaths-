@@ -1,0 +1,84 @@
+{
+  "name": "portal the last scientist to fall in aperture science",
+  "short_name": "portal the last scientist to fall in aperture science",
+  "id": "com.lemon.portal",
+  "description": "Keyboard support only and ive signigntly updated the game",
+  "orientation": "landscape",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "black",
+  "categories": ["games", "entertainment"],
+  "icons": [{
+        "src": "74c8631386763cf95f951ef730803431a87e47148f517f11583305a83f46f99d-ios-icon-20.png.png",
+        "sizes": "20x20"
+      },{
+        "src": "3156806ae4ab40e767f170848a3d1e6602105d2e604d7106c182a687244e30d5-ios-icon-29.png.png",
+        "sizes": "29x29"
+      },{
+        "src": "674b6f04ec7b0d8669283d1615fb219a5819973de77d8fe757d61bc5725bc971-android-icon-36.png.png",
+        "sizes": "36x36"
+      },{
+        "src": "5cf8f0a382315766eb445f866acd983cac27dcff796f4396c9f0a44aa201c077-ios-icon-40.png.png",
+        "sizes": "40x40"
+      },{
+        "src": "eb6a06eccd8237c45e2dd3ed4ead8363b4168118b01713ed5fee85dc73e12735-android-icon-48.png.png",
+        "sizes": "48x48"
+      },{
+        "src": "e596a433f0b59acf85eae4f7d0b3ea7b9b8bc58c7f1e56a8747d5bab87a3b599-ios-icon-50.png.png",
+        "sizes": "50x50"
+      },{
+        "src": "a6d9614b2bdfced03a0e9acfb4fe6a5611e6d305b1f9f42a50c974c7047dca42-ios-icon-57.png.png",
+        "sizes": "57x57"
+      },{
+        "src": "a381af3d2c475c63ac2c2d1f042cf6d36385add27cd19ea081f649a6902c5315-ios-icon-58.png.png",
+        "sizes": "58x58"
+      },{
+        "src": "08a537b90daad797a5788a5c2c4243ba0c6a785f6c7085b26bb30f05155b384e-ios-icon-60.png.png",
+        "sizes": "60x60"
+      },{
+        "src": "096f27d7226aca016eb4fbae2aa42cdbdd3fa3c9756b9fde8d101a60f609ee49-android-icon-72.png.png",
+        "sizes": "72x72"
+      },{
+        "src": "37a0cb86306c1009024a68073fa73131f68163bb02199ae76f5ddc846b8d9f71-ios-icon-76.png.png",
+        "sizes": "76x76"
+      },{
+        "src": "7282aae4664a0668970fe57ae852339f54847fc78ea134a084baabb601a832c6-ios-icon-80.png.png",
+        "sizes": "80x80"
+      },{
+        "src": "dc76bde68ac6886c1caf273cfdb04919e8d6e37e3a40cd213823d72211547fd3-ios-icon-87.png.png",
+        "sizes": "87x87"
+      },{
+        "src": "95c72824332d3639a8f409fd72fa44af68347415755573fdc2e6e8ebbac17d22-android-icon-96.png.png",
+        "sizes": "96x96"
+      },{
+        "src": "e9105d43e65a0f10befb278429af057e3b1c9cbf84b480ef848a27eba0006872-ios-icon-100.png.png",
+        "sizes": "100x100"
+      },{
+        "src": "9e3e94202e40aa50273bae9219e42c51b9c14dedda1fcc24491cb797c2a97c86-ios-icon-114.png.png",
+        "sizes": "114x114"
+      },{
+        "src": "cbb38701e355233fd4a1c20dc82c3a36ec8f5bd99fc87a1e0f69415a66423de5-ios-icon-120.png.png",
+        "sizes": "120x120"
+      },{
+        "src": "a880b5ef10a46e2dfc46091c6f1185ff4e96f4b881b47194da3304276704bb6f-android-icon-144.png.png",
+        "sizes": "144x144"
+      },{
+        "src": "b8cfacdaa355129e57388edea1ce4d42ad96a34686a502e3ec60e7ee72ecd284-ios-icon-152.png.png",
+        "sizes": "152x152"
+      },{
+        "src": "3231780ce44ef3c5210a28e6638ca8a4e600594b937966a3994e83cbed16a0ca-ios-icon-167.png.png",
+        "sizes": "167x167"
+      },{
+        "src": "7399323bed62b71a3c9c5fe0b55961912fb04d63e9c14d143a79f9126d35d189-ios-icon-180.png.png",
+        "sizes": "180x180"
+      },{
+        "src": "5ffbd7307fa59df73770ebcac80dab1cbe474299695bb24f90d355a2eb8bfe0c-android-icon-192.png.png",
+        "sizes": "192x192"
+      },{
+        "src": "b07ddace17eb363dd078743de023d0a5ea7832109e0471fc226e8ed9dedef3c4-desktop-icon-512.png.png",
+        "sizes": "512x512"
+      },{
+        "src": "1fe70450ff498006646255522d4d07a9a08ef9035b3a149025bc416a7f87d4b8-ios-icon-1024.png.png",
+        "sizes": "1024x1024"
+      }]
+}

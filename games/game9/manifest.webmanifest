@@ -1,0 +1,12 @@
+{
+  "name": "Dino Fight (Multiplayer)",
+  "short_name": "Dino Fight (Multiplayer)",
+  "id": "com.example.ArrowFight",
+  "description": "",
+  "orientation": "any",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "black",
+  "categories": ["games", "entertainment"],
+  "icons": []
+}

@@ -1,0 +1,84 @@
+{
+  "name": "Dino plane",
+  "short_name": "Dino plane",
+  "id": "com.dino.flappybird",
+  "description": "Tap to keep your plane in the air and make your way through the cave system. Get as far as you can before you crash in to a wall, submit your score, and try again.",
+  "orientation": "portrait",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "black",
+  "categories": ["games", "entertainment"],
+  "icons": [{
+        "src": "ab4a257b15d2231cd6319ebd818c3303e0cdba486b316894f63a3251b6f1fde0-ios-icon-20.png.png",
+        "sizes": "20x20"
+      },{
+        "src": "9d225313164cf704215444831649cc40130750850e1549b815ad57075117d13c-ios-icon-29.png.png",
+        "sizes": "29x29"
+      },{
+        "src": "435e9d2e58f05923049d5866639522112a3f37b66a320fc4e9b552bed80a8924-android-icon-36.png.png",
+        "sizes": "36x36"
+      },{
+        "src": "b24fb9cb94c2a81b0ca52d66cd4c010262ae68dd50e6839f393d588375042785-ios-icon-40.png.png",
+        "sizes": "40x40"
+      },{
+        "src": "532f951fb1a2e7e78dceeb9adc202779954ec3e8c8916ffce80c7fb86d1f2354-android-icon-48.png.png",
+        "sizes": "48x48"
+      },{
+        "src": "3ccdb52147a620217cbacb493918128d98f54983f072b9daf698fc5034bfad8f-ios-icon-50.png.png",
+        "sizes": "50x50"
+      },{
+        "src": "ee02196d2e3b9825c1ac452b3e8512c2e4ca380bcd275be72c1ed0b523a35382-ios-icon-57.png.png",
+        "sizes": "57x57"
+      },{
+        "src": "8960a74fc108382c24a5da1d829cb3fed1eea7e8e5f72826745e8b240220285d-ios-icon-58.png.png",
+        "sizes": "58x58"
+      },{
+        "src": "3dac77b9bb7e0ac8d33a153293efaea7fb50918d94e3c8f18d3576a68faa67b7-ios-icon-60.png.png",
+        "sizes": "60x60"
+      },{
+        "src": "258501019c059bc2bb27180198fc51538a7a0811be5750add070b3df7f8a0865-android-icon-72.png.png",
+        "sizes": "72x72"
+      },{
+        "src": "df13bf1b98e238c7ca8b7798d5566c6a785fa4c4f2f34cee030c652a9393e34e-ios-icon-76.png.png",
+        "sizes": "76x76"
+      },{
+        "src": "643ee6064a272937b11e219870dd3181d669a068bff3b53282ff7b7ffd8b868e-ios-icon-80.png.png",
+        "sizes": "80x80"
+      },{
+        "src": "af1bf04d9534649443e386e780380ad1b184edf8b27c8a5308b2c580df14574b-ios-icon-87.png.png",
+        "sizes": "87x87"
+      },{
+        "src": "04682bed2e1fa65d722e66561e5b7007b7c3cf8fe6eaebf79d760a24c7aaa9c5-android-icon-96.png.png",
+        "sizes": "96x96"
+      },{
+        "src": "1653ed109e7fb20cd0cf2abe0a9a44737d5e26059e8fea754ffd7745951d6ef7-ios-icon-100.png.png",
+        "sizes": "100x100"
+      },{
+        "src": "9132d2a4b4aa8566c234ec7c77cad8847bfa638eb966bbe6d16b8f0e77e5d520-ios-icon-114.png.png",
+        "sizes": "114x114"
+      },{
+        "src": "26ae0d376637e36ef88ddd4c6815664bfe5158710bad0956ae7e5dfe53e56f05-ios-icon-120.png.png",
+        "sizes": "120x120"
+      },{
+        "src": "557d4b971c917bb02144ba084507243f86c22a14ad6252c319a467da3eb9d027-android-icon-144.png.png",
+        "sizes": "144x144"
+      },{
+        "src": "3a382bdd7655a5445380a34e315b4973aec6f985870e8ea8824e1e0e27b9ece9-ios-icon-152.png.png",
+        "sizes": "152x152"
+      },{
+        "src": "c7866618be302527cec180c10560c4af71e8287d3d52ed10db82f9b5e9fdef6f-ios-icon-167.png.png",
+        "sizes": "167x167"
+      },{
+        "src": "ac79ce768a734f65d0a77053f18e222b1cf0f46fcbf01103047397e2601753ca-ios-icon-180.png.png",
+        "sizes": "180x180"
+      },{
+        "src": "415deeafcf63cb8c7b5ebe8964c43c4d3d83b1c5c7f89d2936d46379d68f8b88-android-icon-192.png.png",
+        "sizes": "192x192"
+      },{
+        "src": "a348d0f630194d01b13a8af2677b0b96357706b64653503e9943f05329cf6d73-desktop-icon-512.png.png",
+        "sizes": "512x512"
+      },{
+        "src": "2d8ced4ccd8074d9fd02af594d8ce9e67c11099a9b652d55377f618e07fd6779-ios-icon-1024.png.png",
+        "sizes": "1024x1024"
+      }]
+}

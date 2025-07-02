@@ -1,0 +1,150 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+  font-family: 'Press Start 2P', cursive;
+  background-color: #000000;
+  color: #f0e68c;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 40px 20px;
+}
+
+h1 {
+  color: #ffa500;
+  font-size: 18px;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px #000;
+}
+
+p {
+  font-size: 10px;
+  margin-bottom: 30px;
+  color: #f0e68c;
+.game-link {
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  color: orange;
+  text-decoration: none;
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid orange;
+  background-color: black;
+}
+
+.game-link .preview {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 200px;
+  height: 120px;
+  background-size: cover;
+  background-position: center;
+  border: 2px solid #ffa500;
+  margin-top: 10px;
+  z-index: 10;
+}
+.submit-game-btn {
+  display: inline-block;
+  background-color: #ffa500;
+  color: black;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 12px;
+  padding: 10px 20px;
+  border: 3px solid #000;
+  text-decoration: none;
+  box-shadow: 3px 3px #000;
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+
+.submit-game-btn:hover {
+  transform: scale(1.08);
+  background-color: #ffb733;
+}
+
+.menu-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  font-size: 30px;
+  color: #ffa500;
+  cursor: pointer;
+  z-index: 1000;
+}
+  .sidebar {
+  right: -300px;
+}
+
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: -390px;
+  width: 250px;
+  height: 100%;
+  background-color: #111;
+  box-shadow: -3px 0 5px rgba(0,0,0,0.5);
+  padding: 20px;
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  transition: right 0.3s ease;
+  z-index: 999;
+}
+
+.sidebar a {
+  color: orange;
+  text-decoration: none;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 10px;
+  margin-bottom: 20px;
+  text-align: right;
+}
+
+.sidebar-footer {
+  margin-top: auto;
+  font-size: 8px;
+  color: #ccc;
+  border-top: 1px solid #444;
+  padding-top: 10px;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.game-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+.game-card {
+  text-decoration: none;
+  background-color: #111;
+  border: 3px solid #ffa500;
+  color: #ffff00;
+  padding: 15px 25px;
+  font-size: 10px;
+  display: inline-block;
+  box-shadow: 4px 4px #000;
+  transition: transform 0.2s, background-color 0.3s;
+}
+
+.game-card:hover {
+  transform: scale(1.08);
+  background-color: #222;
+}
+
+footer a {
+  font-size: 10px;
+  color: #ffa500;
+  text-decoration: none;
+  margin-top: 40px;
+  display: inline-block;
+}

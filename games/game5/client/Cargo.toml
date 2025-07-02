@@ -1,0 +1,41 @@
+[package]
+name = "client"
+version = "0.1.1"
+edition = "2021"
+
+[patch.crates-io]
+yew-router = { git = "https://github.com/finnbear/yew", package = "yew-router", branch = "dynamic_basename_2_hack_2" }
+
+[dependencies]
+base64 = "0.13"
+bytemuck = { version = "1.9", features = [ "extern_crate_alloc" ] }
+common = { path = "../common", default-features = false }
+euclid = { version = "0.22", features = [ "bytemuck" ] }
+kodiak_client = { git = "https://github.com/softbearstudios/kodiak", tag="0.1.1", default-features = false, features = [ "audio", "music", "renderer2d", "zoom" ] } # TODO "align_2d_camera" once it doesn't snap on zoom.
+lyon_path = "0.17"
+lyon_svg = "0.17"
+lyon_tessellation = "0.17"
+minicdn = { version = "0.2.1", default-features = false } # Version and features set via core_protocol.
+strum = { version = "0.24.1" }
+stylist = { version = "0.13", default-features = false }
+yew = "0.21"
+yew_icons = { version = "0.8", features = [
+    "BootstrapExclamationTriangleFill",
+    "BootstrapYoutube",
+    "FontAwesomeSolidLocationCrosshairs",
+    "FontAwesomeSolidHouseCircleExclamation",
+    "FontAwesomeSolidCircleInfo",
+    "FontAwesomeSolidCircleArrowUp",
+    "FontAwesomeSolidWarehouse",
+    "FontAwesomeSolidPersonWalkingDashedLineArrowRight",
+    "FontAwesomeSolidLock"
+] }
+yew-router = "0.18"
+
+[build-dependencies]
+bytemuck = "1.9"
+glam = { version = "0.22", features = [ "bytemuck" ] }
+# Use kodiak_common because build.rs cannot use the unstable web-sys APIs that are in kodiak_client.
+kodiak_common = { git = "https://github.com/softbearstudios/kodiak", tag="0.1.1" }
+rand = "0.8"
+rand_chacha = "0.3.1"
