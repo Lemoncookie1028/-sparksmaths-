@@ -1,0 +1,279 @@
+html {
+	overflow-x: hidden;
+}
+
+body {
+	font: 18px sans-serif;
+	background-color: #EEEEEE;
+	overflow-x: hidden;
+}
+
+p, h1, h2, h3, h4, h5, h6, li {
+	margin-block-start: 0px;
+	margin-block-end: 0px;
+	padding: 10px 1px;
+}
+
+li {
+	padding: 5px 1px;
+}
+
+li p {
+	padding: 0px;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+#inner {
+	width: 800px;
+	max-width: calc(100vw - 70px);
+	margin: auto;
+}
+
+.imageWithSubtitle {
+	display: inline-block;
+	margin: 5px;
+	text-align: center;
+}
+
+.imageWithSubtitle p:first-child {
+	padding: 0px;
+}
+
+.imageWithSubtitle p:first-child a {
+	border-bottom: none;
+}
+
+.imageWithSubtitle p:last-child {
+	font-weight: bold;
+}
+
+.sectionHeading {
+	padding: 25px 0px 15px 0px;
+	font-size: 1.6em;
+}
+
+.sectionHeading b:first-child {
+	font-size: 1.3em;
+	border-bottom: 2px dashed #BBBBBB;
+	padding-bottom: 3px;
+	margin-bottom: -5px;
+}
+
+a, a:link, a:hover, a:active, a:visited {
+	text-decoration: none;
+	color: black;
+	border-bottom: 2px dotted #BBBBBB;
+	padding-bottom: 0px;
+	margin-bottom: -2px;
+}
+
+a:hover {
+	border-bottom: 2px dotted #222222;
+}
+
+a.nolink, a.nolink:link, a.nolink:hover, a.nolink:active, a.nolink:visited {
+	text-decoration: none;
+	color: black;
+	border-bottom: none;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+.sectionHeading b:first-child a, .sectionHeading b:first-child a:link, 
+.sectionHeading b:first-child a:hover, .sectionHeading b:first-child a:active,
+.sectionHeading b:first-child a:visited {
+	border-bottom: none;
+	text-decoration: none;
+	color: black;
+}
+
+.tab:after {
+	content: " ";
+	padding-left: 1.7em;
+}
+
+.small_list li {
+	padding: 2px 0px;
+}
+
+.expandImage {
+	cursor: pointer;
+}
+
+#expand-overlay a, #expand-overlay a:link, #expand-overlay a:active, #expand-overlay a:visited {
+	color: white;
+}
+
+#expand-overlay a:hover {
+	border-bottom: 2px dotted #EEEEEE;
+}
+
+#expand-overlay {
+	position: fixed;
+	z-index: 10;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+	right: 0px;
+	background-color: rgba(10, 10, 10, 0.85);
+	text-align: center;
+	color: white;
+}
+
+#expand-overlay > div {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+#expand-overlay > div > div {
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+}
+
+#expandOverlayTitle {
+	width: 100%;
+	position: relative;
+}
+
+#expandOverlayTitleButtons {
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	padding: 3px 10px;
+}
+
+#expandOverlayTitleTitle {
+	width: calc(90% - 200px);
+	font-size: 1.5em;
+	padding: 10px calc(5% + 100px);
+}
+
+#expandOverlayCloseButton {
+	vertical-align: middle;
+	display: inline-block;
+	height: 22px;
+	width: 24px;
+	border: 1px solid white;
+	background-image: url("expl_images/close.png");
+	cursor: pointer;
+}
+
+#expandOverlayDownloadButton {
+	vertical-align: middle;
+	font-size: 0.9em;
+	display: inline-block;
+	padding: 0px 10px 0px 0px;
+}
+
+.cameraCollapse {
+	border-bottom: 1px dashed #888888;
+	padding: 3px;
+}
+
+.cameraCollapse:first-child {
+	border-top: 1px dashed #888888;
+}
+
+.cameraTitle {
+	padding-left: 185px;
+	position: relative;
+	min-height: 45px;
+	font-size: 1.1em;
+}
+
+.cameraTitle p {
+	position: absolute;
+	left: 80px;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	width: calc(100% - 110px);
+	cursor: pointer;
+}
+
+.cameraTitle .expandImage {
+	-ms-filter: brightness(2.0);
+	filter: brightness(2.0);
+	position: absolute;
+	left: 15px;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	border-radius: 20px;
+}
+
+#camerasCollapse {
+	padding-left: 10px;
+}
+
+.cameraExpandIcon {
+	display: inline-block;
+	width: 19px;
+	height: 19px;
+	background-image: url("expl_images/open_close.png");
+	position: absolute;
+	right: 5px;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	cursor: pointer;
+}
+
+.cameraCollapseCollapseInner {
+	position: absolute;
+	right: calc(15px + 5vw);
+	left: calc(15px + 5vw);
+	padding: 10px calc(6px + 2vw) 20px calc(6px + 2vw);
+	border: 1px dashed #444444;
+	border-radius: 10px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.cameraCollapseCollapseInner .expandImage {
+	-ms-filter: brightness(1.5);
+	filter: brightness(1.5);
+}
+
+.cameraCollapseImageWithSubtitle {
+	display: inline-block;
+	padding: 0px 10px;
+}
+
+.cameraCollapseImageWithSubtitle h3 {
+	padding: 4px 0px 24px 0px;
+}
+
+.cameraCollapseCollapseInner p:first-child {
+	padding: 10px 0px 20px 0px;
+	font-size: 1.3em;
+}
+
+.videoTile {
+	display: inline-block;
+	margin: 10px 3px;
+	text-align: left;
+}
+
+.codeSnippet {
+	font-size: 0.8em;
+	padding: 15px 20px;
+	font-family: monospace;
+	white-space: pre-wrap;
+	display: inline-block;
+	background-color: #EAEAEA;
+	border: 1px dashed #666666;
+	border-radius: 4px;
+}
