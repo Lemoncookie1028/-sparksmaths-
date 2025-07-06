@@ -1,0 +1,84 @@
+{
+  "name": "Ruin 3D car Racing",
+  "short_name": "Ruin 3D car Racing",
+  "id": "com.Ruin.car",
+  "description": "An arcade racing game inspired from Out Run.\n\nAsset sources\n- Plants and cars are from Kenney\n- The montains are from pzUH",
+  "orientation": "landscape",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "black",
+  "categories": ["games", "entertainment"],
+  "icons": [{
+        "src": "7409b393d200d241957c50a7d463a00f719fec1d4886d475817a9c721cd98cff-ios-icon-20.png.png",
+        "sizes": "20x20"
+      },{
+        "src": "23f68414cb995ce56dc5873effc50611343abb5695615f8f2d1c9ad747a90675-ios-icon-29.png.png",
+        "sizes": "29x29"
+      },{
+        "src": "44f53982770aac353b2fe3a371707b37a4f85b728dbe704f906ab81191c5b92c-android-icon-36.png.png",
+        "sizes": "36x36"
+      },{
+        "src": "f9cc3f3de820417fc4b7a19735b1968b8a83b528664e8a53253294b72572cb82-ios-icon-40.png.png",
+        "sizes": "40x40"
+      },{
+        "src": "05ad1698e4483864df4d63d8e7299c043e3a0896454061568d8c6880f5e19a5b-android-icon-48.png.png",
+        "sizes": "48x48"
+      },{
+        "src": "f2308c60ff4ea8dc64997fd66f27245425493cefd8570d7d152d657e8862ac0e-ios-icon-50.png.png",
+        "sizes": "50x50"
+      },{
+        "src": "49a62c7ec8f7b3817135f3ae4b1d22ef6ae01a6638ab0e038956fcea4a61a605-ios-icon-57.png.png",
+        "sizes": "57x57"
+      },{
+        "src": "8969b73bb113bc7bf6103adea06dfa747d323fa018f7f65abdf2ab14f62ee54d-ios-icon-58.png.png",
+        "sizes": "58x58"
+      },{
+        "src": "fb5bfa2cffd201335203d45a4bd842850d92dfcab3061a373ea433e6ee3ef1e6-ios-icon-60.png.png",
+        "sizes": "60x60"
+      },{
+        "src": "f801f3d6ee9416342ee974d73111d0fcc76fe1f83cf55e561b16de247261901f-android-icon-72.png.png",
+        "sizes": "72x72"
+      },{
+        "src": "c8746fe728592d5cb8ee6965e2a71e17275f915da111a627dea918aabb98fbbc-ios-icon-76.png.png",
+        "sizes": "76x76"
+      },{
+        "src": "9f036936dbd1ebae89c77b80c88e85279ad9e19441868690caee69acd25b1b38-ios-icon-80.png.png",
+        "sizes": "80x80"
+      },{
+        "src": "e79010c4d011f00827c16c94fa6ecb7d6ce8820b6dc61e469295edf04acfc997-ios-icon-87.png.png",
+        "sizes": "87x87"
+      },{
+        "src": "3b01d472317bebf59789cc76a07d5105ab2c0c7419c83523530cf8219f5f0b4f-android-icon-96.png.png",
+        "sizes": "96x96"
+      },{
+        "src": "3448f14e50e824c219f7e1be14be4900c7b2a43a78ab7407a7cba62eb7aee277-ios-icon-100.png.png",
+        "sizes": "100x100"
+      },{
+        "src": "7cfc419bdd2a1f856630c377b27dd3156ecba126bf787df7dd90941354b15942-ios-icon-114.png.png",
+        "sizes": "114x114"
+      },{
+        "src": "9cd4765f9fdfa696115d7e02e1fd8f171e7694888b38fa3dfca7c1781d2f6a7a-ios-icon-120.png.png",
+        "sizes": "120x120"
+      },{
+        "src": "349dca0a249618e775cf664c5dcae3cfd260b5eea7613207df5d0c6c7e69a3af-android-icon-144.png.png",
+        "sizes": "144x144"
+      },{
+        "src": "0481154a806109a33c4acd2eaf31fb19314381405fcc5e031fbe8aa88409894a-ios-icon-152.png.png",
+        "sizes": "152x152"
+      },{
+        "src": "e18a1f5a44800829800059e1d587919f6217bb0ba500133612e0b27f184f9a7c-ios-icon-167.png.png",
+        "sizes": "167x167"
+      },{
+        "src": "769c56730cce5e26816e5e594309bf12ec95b521c002ffe84e68341a4d6878fa-ios-icon-180.png.png",
+        "sizes": "180x180"
+      },{
+        "src": "05d5c605b555d714c7789e1303ca633536f86b474795facfe0a2344ae8fca49d-android-icon-192.png.png",
+        "sizes": "192x192"
+      },{
+        "src": "b83933e513d46dedd6f82274644e110ca1905c3d86b11b5dcf04a994fc8237b8-desktop-icon-512.png.png",
+        "sizes": "512x512"
+      },{
+        "src": "05c3cbba784bfbf85b1262a0ff2473518b81676c1ec60a32428f127c4982d8cc-ios-icon-1024.png.png",
+        "sizes": "1024x1024"
+      }]
+}
